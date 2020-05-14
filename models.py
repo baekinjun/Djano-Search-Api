@@ -1,0 +1,42 @@
+import uuid
+from django.db import models
+from django.db.models.signals import post_save
+from pathlib import Path
+
+
+class Document(models.Model):
+    title_korean = models.TextField(null=True)
+    title_english = models.TextField(null=True)
+    applicant = models.TextField(null=True)
+    application_number = models.TextField(null=True)
+    application_date = models.DateTimeField(null=True)
+    registration_number = models.TextField(null=True)
+    registration_date = models.DateTimeField(null=True)
+    release_number = models.TextField(null=True)
+    release_date = models.DateTimeField(null=True)
+    tech_transfer_name = models.TextField(null=True)
+    tech_transfer_phone = models.TextField(null=True)
+    tech_transfer_mail = models.TextField(null=True)
+    summary = models.TextField(null=True)
+    legal_status = models.TextField(null=True)
+    judging_progress_status = models.TextField(null=True)
+    claim = models.TextField(null=True)
+    quotation = models.TextField(null=True)
+    cited = models.TextField(null=True)
+    family_country_code = models.TextField(null=True)
+    family_country_name = models.TextField(null=True)
+    family_number = models.TextField(null=True)
+    family_literature_kind = models.TextField(null=True)
+    family_kind = models.TextField(null=True)
+    inventor = models.TextField(null=True)
+    inventor_english = models.TextField(null=True)
+    pdf_path = models.TextField(null=True)
+    html_path = models.TextField(null=True)
+    figure_path = models.TextField(null=True)
+    nouns = models.TextField(null=True)
+    content = models.TextField(null=True)
+    image = models.ImageField(null=True)
+    pdf = models.FileField(null=True)
+    html = models.FileField(null=True)
+    search_group = models.TextField(null=True)
+    new_search_group = models.TextField(null=True)
