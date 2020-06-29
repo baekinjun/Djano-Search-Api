@@ -14,5 +14,6 @@
 
 <h2> 실행화면 </h2>
 
+<img width="359" alt="스크린샷 2020-06-29 오후 1 39 04" src="https://user-images.githubusercontent.com/58027908/85973524-f79faf00-ba0d-11ea-8ccf-ebb040cbafe1.png">
  
 
